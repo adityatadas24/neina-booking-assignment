@@ -10,7 +10,7 @@ export default function AvailabilityCheck() {
 
   const checkAvailability = async () => {
     try {
-      const response = await axios.post('https://neina-booking-assignment-hs79.vercel.app/api/bookings/availability', {
+      const response = await axios.post('https://neina-booking-assignment-x27g.vercel.app/api/bookings/availability', {
         date,
         time,
       });
