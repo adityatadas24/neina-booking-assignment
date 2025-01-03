@@ -13,7 +13,7 @@ export default function CalendarView() {
   useEffect(() => {
     async function fetchBookings() {
       try {
-        const res = await axios.get("https://neina-booking-assignment-hs79.vercel.app/api/bookings");
+        const res = await axios.get("https://neina-booking-assignment-x27g.vercel.app/api/bookings");
         setBookings(res.data);
       } catch (error) {
         console.error("Failed to fetch bookings:", error);
