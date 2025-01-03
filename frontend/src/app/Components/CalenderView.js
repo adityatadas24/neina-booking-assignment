@@ -9,7 +9,7 @@ export default function CalendarView() {
   const [bookings, setBookings] = useState([]);
   const [selectedSlot, setSelectedSlot] = useState(null);
 
-  // Fetch bookings from backend
+  // Fetch bookings from backendcd
   useEffect(() => {
     async function fetchBookings() {
       try {
