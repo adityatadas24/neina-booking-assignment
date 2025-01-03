@@ -1,15 +1,10 @@
 "use client";
-import { useRouter } from "next/navigation";
 import BookingForm from "../Components/BookingForm";
 import Calendar from "./calendar";
 import BookingSummary from "../Components/BookingSummary";
 
 export default function Index() {
-    const router = useRouter();
-
-    const navigateWithDate = () => {
-      router.push(`/calender`);
-    };
+ 
 
   return (
     <div className="flex justify-center items-center w-full flex-col gap-6">

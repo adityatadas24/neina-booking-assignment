@@ -8,7 +8,7 @@ function BookingSummary() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/bookings")
+      .get("https://neina-booking-assignment-hs79.vercel.app//api/bookings")
       .then((response) => setBookings(response.data))
       .catch((error) => console.error(error));
   }, []);
