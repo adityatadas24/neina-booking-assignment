@@ -18,7 +18,7 @@ export default function BookingForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://neina-booking-assignment-x27g.vercel.app/api/bookings", formData);
+      await axios.post("http://localhost:5000/api/bookings", formData);
       alert("Booking successful!");
     } catch (error) {
       alert(error.response.data.message);
