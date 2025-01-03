@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 app.use(cors(
   {
-    origin: ["neina-booking-assignment-bplq.vercel.app"],
+    origin: ["neina-booking-assignment-bplq.vercel.app/"],
     methods:["POST", "GET"],
     credentials: true
   }
