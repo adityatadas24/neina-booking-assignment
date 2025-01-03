@@ -8,7 +8,7 @@ function BookingSummary() {
 
   useEffect(() => {
     axios
-      .get("https://neina-booking-assignment-5.onrender.com/api/bookings")
+      .get("http://localhost:5000/api/bookings")
       .then((response) => setBookings(response.data))
       .catch((error) => console.error(error));
   }, []);

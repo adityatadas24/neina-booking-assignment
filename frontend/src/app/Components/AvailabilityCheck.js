@@ -10,7 +10,7 @@ export default function AvailabilityCheck() {
 
   const checkAvailability = async () => {
     try {
-      const response = await axios.post('https://neina-booking-assignment-5.onrender.com/api/bookings/availability', {
+      const response = await axios.post('http://localhost:5000/api/bookings/availability', {
         date,
         time,
       });
