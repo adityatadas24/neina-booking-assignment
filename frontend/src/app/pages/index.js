@@ -1,8 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import AvailabilityCheck from "../Components/AvailabilityCheck";
 import BookingForm from "../Components/BookingForm";
-import CalendarView from "../Components/CalenderView";
 import Calendar from "./calendar";
 import BookingSummary from "../Components/BookingSummary";
 
