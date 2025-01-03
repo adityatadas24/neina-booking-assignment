@@ -2,21 +2,15 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 const bookingRoutes = require('./routes/bookingRoutes');
-require('dotenv').config();
+
 
 const app = express();
-<<<<<<< HEAD
 app.use(cors());
-=======
+
 app.use(cors(
-  {
-    origin: ["https://neina-booking-assignment-4t2o.vercel.app/"],
-    methods:["POST", "GET"],
-    credentials: true
-  }
+
 ));
 
->>>>>>> 7a9ae3452a2d33863fbdda59511001aba74a7fc3
 app.use(express.json());
 
 // Connect to Database
